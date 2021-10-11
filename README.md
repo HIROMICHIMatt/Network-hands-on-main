@@ -75,7 +75,7 @@ Duration: 15 minutes
 
 3.  **Next: IP Addresses** をクリック。
 
-    ![](2021-10-10-12-28-06.png)
+    ![](images/2021-10-10-12-28-06.png)
    
 4.  **Create virtual network - IP Addresses** タブにて、以下の情報を入力。
 
