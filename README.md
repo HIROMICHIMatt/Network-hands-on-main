@@ -1,7 +1,7 @@
 # Network-Hands-On
 In this hands-on lab, we will see how Hub &amp; Spoke network topology works and what component it consists of.  
 Before this hands-on, you need to finish several steps from the link below.  
-[Before the HOL - Enterprise-class networking.md](https://github.com/microsoft/MCW-Enterprise-class-networking/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Enterprise-class%20networking.md)  
+[Before the HOL](https://github.com/HIROMICHIMatt/Network-hands-on-main/tree/main/Before%20the%20hands-on%20lab)  
 
 #**Contents**
 
