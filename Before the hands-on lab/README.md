@@ -17,7 +17,7 @@ Duration: 15 minutes
 
 3.  以下のスクリーンショットのようになっていることを確認し、 **Next: IP Addresses**をクリック。
 
-   ![](2021-10-09-11-21-41.png)
+   ![](images/2021-10-09-11-21-41.png)
 
 4. **IP Addresses**タブで以下の情報を入力。
 
@@ -33,11 +33,11 @@ Duration: 15 minutes
 
 6.  SpokeVNetRG2 リソースグループに行き、**SpokeVNet2**ブレード下にある**Subnets** をクリック。(**Settings** セクションの下)
 
-    ![](2021-10-09-11-30-27.png)
+    ![](images/2021-10-09-11-30-27.png)
 
 7.  **Subnets** ブレードにて、**+Subnet**をクリック。
 
-    ![](2021-10-09-11-32-15.png)
+    ![](images/2021-10-09-11-32-15.png)
 
 8.  **Add subnet** ブレードにて、以下の情報を入力。
 
@@ -51,11 +51,11 @@ Duration: 15 minutes
 
 9.  以下のように入力したら、 **Save** をクリック。
 
-    ![](2021-10-09-11-34-05.png)
+    ![](images/2021-10-09-11-34-05.png)
 
 10. 設定が完了すると、以下のように見える。
 
-     ![](2021-10-09-11-35-41.png) 
+     ![](images/2021-10-09-11-35-41.png) 
 
 ### Task 2: Use the Azure portal for a template deployment
 
@@ -66,17 +66,17 @@ Duration: 15 minutes
 
 3.  **+ Create a resource**をクリックし、**template deployment (deploy using custom templates)**を選択。
 
-    ![](2021-10-09-11-42-27.png)
+    ![](images/2021-10-09-11-42-27.png)
 
 4.  **Template deployment (deploy using custom templates)** ブレードにて、**Create**をクリック。
 
 5.  カスタムデプロイ ブレードにて、**Build your own template in the editor**をクリック。
 
-    ![](2021-10-09-11-43-34.png)
+    ![](images/2021-10-09-11-43-34.png)
 
 6.  **Load file**をクリックし、 **CloudShop.json** を選択して **Save**をクリック。
 
-    ![](2021-10-09-11-46-36.png)
+    ![](images/2021-10-09-11-46-36.png)
 
 7.  以下のパラメータにはこのテンプレートを過去に使った際の情報が入っているのでアップデートする。
 
@@ -88,7 +88,7 @@ Duration: 15 minutes
   
     - Data Subnet: **DataSubnet**
 
-    ![](2021-10-09-11-49-21.png)
+    ![](images/2021-10-09-11-49-21.png)
 
 8.  また、空欄となっているリソースグループにも**SpokeVNetRG2**を選択。**Review + create** をクリックし、**Create**をクリック。このデプロイには30-40分かかります。
 
@@ -96,7 +96,7 @@ Duration: 15 minutes
 
     -  Location: **Japan East** (The same location you used to provision resources earlier in this lab.)
 
-    ![](2021-10-09-11-51-27.png)
+    ![](images/2021-10-09-11-51-27.png)
 
 ### Task 3: Validate the CloudShop application is up after the deployment
 
@@ -106,7 +106,7 @@ Duration: 15 minutes
 
 3.  **WGWEB1** ブレードにて、 **Connect**をクリックした後、**RDP**を選択。 **Download RDP file** をし、Remote Desktopセッションを確立する。
 
-    ![](2021-10-09-11-58-12.png)
+    ![](images/2021-10-09-11-58-12.png)
 
 
 4.  以下の情報を使ってログイン。
@@ -117,23 +117,23 @@ Duration: 15 minutes
 
 6.  以下の画面が出たら **Yes** を選択。
 
-    ![](2021-10-09-12-00-43.png)
+    ![](images/2021-10-09-12-00-43.png)
 
 7.  以下が出たら**No**を選択。
 
-    ![](2021-10-09-12-01-26.png)
+    ![](images/2021-10-09-12-01-26.png)
 
 8.  Server Managerがデフォルトで開くので、**Local Server**をクリック。
 
-    ![](2021-10-09-12-02-22.png)
+    ![](images/2021-10-09-12-02-22.png)
 
 9.  **IE Enhanced Security Configuration** がオンになっていたら**Off**にする。
 
-    ![](2021-10-09-12-03-47.png)
+    ![](images/2021-10-09-12-03-47.png)
 
 10. OffにするときはAdministratorsに対して**Off** にし、**OK**をクリック。
 
-    ![](2021-10-09-12-04-26.png)
+    ![](images/2021-10-09-12-04-26.png)
 
 11. CloudShop application への接続を試すために、Internet Explorerを開き以下の2つにアクセスする。
 
