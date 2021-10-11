@@ -89,7 +89,7 @@ Duration: 15 minutes
 
 5.   **Next: Security**をクリック。
 
-![](2021-10-10-12-36-03.png)
+![](images/2021-10-10-12-36-03.png)
 
 6.   **Create virtual network Security** タブで **BastionHost**を有効化する。
 
@@ -105,13 +105,13 @@ Duration: 15 minutes
 
 8.  その他のオプションはそのままにしておく。
 
-    ![](2021-10-10-12-32-48.png)
+    ![](images/2021-10-10-12-32-48.png)
 
 9.  **Review + Create**をクリック。
 
 10. 入力内容を確認し、**Create**をクリック。
 
-    ![](2021-10-10-12-37-52.png)
+    ![](images/2021-10-10-12-37-52.png)
 
 11. リソースが作成されたら、**Go to Resource**をクリック。
 
@@ -119,11 +119,11 @@ Duration: 15 minutes
 
 1.  HubVNetRG 仮想Networkに行き、**Settings**セクション下の**Subnets**をクリック。
 
-    ![](2021-10-10-12-45-28.png)
+    ![](images/2021-10-10-12-45-28.png)
 
 2.  **+Subnet**をクリック。
 
-    ![](2021-10-10-12-46-07.png)
+    ![](images/2021-10-10-12-46-07.png)
 
 3.  **Add subnet** ブレードで以下の情報を入力。
 
@@ -137,11 +137,11 @@ Duration: 15 minutes
 
     -  Service Endpoints: **Leave as Default**
 
-    ![](2021-10-10-12-48-07.png)
+    ![](images/2021-10-10-12-48-07.png)
 
 4. **保存**をクリックし、以下のようにサブネットが追加されたことを確認。
    
-   ![](2021-10-10-12-49-23.png)
+   ![](images/2021-10-10-12-49-23.png)
 
 ### Task 3: Create another Virtual Network
 
@@ -155,7 +155,7 @@ Duration: 15 minutes
 
     -  Location: **Japan East**
 
-    ![](2021-10-10-12-51-45.png)
+    ![](images/2021-10-10-12-51-45.png)
 
     -  IPv4 Address space: **10.9.0.0/20**
 
@@ -163,7 +163,7 @@ Duration: 15 minutes
 
     -  Subnet address range: **10.9.2.0/25**
 
-    ![](2021-10-10-12-56-34.png)
+    ![](images/2021-10-10-12-56-34.png)
 
 ## Exercise 2: Virtual Network Peering
 
@@ -175,7 +175,7 @@ Duration: 20 Minutes
 
 2.  **+ Add**をクリック。
 
-    ![](2021-10-10-13-06-32.png)
+    ![](images/2021-10-10-13-06-32.png)
 
 3.  以下の情報を使って新しいピアリングを作成する。 入力後 **Add** をクリックする。
 
@@ -193,7 +193,7 @@ Duration: 20 Minutes
 
     - Traffic forwarded from remote virtual network: **Allow (default)**
 
-    ![](2021-10-10-13-11-42.png)
+    ![](images/2021-10-10-13-11-42.png)
 
 3.  以下の情報を使ってもう一つ新しいピアリングを作成する。 入力後 **Add** をクリックする。
 
@@ -211,7 +211,7 @@ Duration: 20 Minutes
 
     - Traffic forwarded from remote virtual network: **Allow (default)**
 
-    ![](2021-10-10-13-09-14.png)
+    ![](images/2021-10-10-13-09-14.png)
 
 ## Exercise 3: Configure Network Security Groups and Application Security Groups
 
@@ -233,7 +233,7 @@ Duration: 20 minutes
 
     -  Region: **Japan East** 
 
-    ![](2021-10-10-13-27-54.png)
+    ![](images/2021-10-10-13-27-54.png)
 
 3.  検証に成功後、 **Create**をクリック。 
 
@@ -247,7 +247,7 @@ Duration: 20 minutes
 
     -  Region: **Japan East**
 
-    ![](2021-10-10-13-30-22.png)
+    ![](images/2021-10-10-13-30-22.png)
 
 ### Task 2: Configure application security groups
 
@@ -257,11 +257,11 @@ Duration: 20 minutes
 
 3.   **Application security groups** タブをクリックし、**Configure the application security groups**をクリック。  
 
-  ![](2021-10-10-13-34-01.png)
+  ![](images/2021-10-10-13-34-01.png)
 
 4.  ドロップダウンから **WebTier**を選択し、 **Save**をクリック。
 
-    ![](2021-10-10-13-35-17.png)
+    ![](images/2021-10-10-13-35-17.png)
 
 5.  **WGWEB2** に対しても上記のステップを繰り返し、**WebTier** アプリケーションセキュリティグループをアタッチする。
 6.  1-4のステップを今度は**WGSQL1**に行い、DataTierのアプリケーションセキュリティグループをアタッチする。 
@@ -280,14 +280,14 @@ Duration: 20 minutes
 
     -  Region: **Japan East** (This must match the location in which you created the **SpokeVNet2** virtual network.)
 
-    ![](2021-10-10-13-45-00.png)
+    ![](images/2021-10-10-13-45-00.png)
 
 3.  デプロイ完了後、リソースに移動する。
 4.  **Settings**セクション下の**Inbound security rules**をクリック。
-   ![](2021-10-10-13-50-35.png)
+   ![](images/2021-10-10-13-50-35.png)
 
 5.   **+Add**をクリックする。
-   ![](2021-10-10-13-51-36.png)
+   ![](images/2021-10-10-13-51-36.png)
 
 6.  以下の情報を入力し、**Add**をクリック。
 
@@ -335,7 +335,7 @@ Duration: 20 minutes
 
     -  Name: **AllowAnyWebTierInboundTCP80**
 
-    ![](2021-10-11-13-31-00.png)
+    ![](images/2021-10-11-13-31-00.png)
 
 9.  次のルールを設定するため、再度**+Add**をクリック。
 
@@ -411,7 +411,7 @@ Duration: 20 minutes
 
    
     以下のような画面になっていることを確認。
-    ![](2021-10-11-13-34-17.png)
+    ![](images/2021-10-11-13-34-17.png)
 
 
 15.  **Settings**セクション下の**Subnets**をクリックし、 **+ Associate**をクリック。
@@ -445,7 +445,7 @@ Duration: 15 minutes
 
 3.  以下のようになっていることを確認して、 **Review + Create** をクリック。その後、 **Create**をクリック。
 
-    ![](2021-10-11-09-17-06.png)
+    ![](images/2021-10-11-09-17-06.png)
 
 4.  ステップ 1 と 2 を繰り返し、 **AppRT** ルートテーブルを作成する。
 
@@ -461,13 +461,13 @@ Duration: 15 minutes
 
 5.  作成後、ルートテーブルのリソースを確認しに行ったときに、以下のように見えているか確認する。
 
-    ![](2021-10-11-09-38-10.png)
+    ![](images/2021-10-11-09-38-10.png)
 
 ### Task 2: Add routes to each route table
 
 1.  **AppRT**を選択し、**Settings**セクション下の**Routes**をクリック。
 
-    ![](2021-10-11-09-41-56.png)
+    ![](images/2021-10-11-09-41-56.png)
 
 2.  **+ Add**をクリックし、以下の情報を入力した後に、 **OK**をクリック。
 
@@ -479,7 +479,7 @@ Duration: 15 minutes
 
     -  Next hop address: **10.7.1.4**(後に設定するFirewallのIP)
 
-    ![](2021-10-11-09-43-49.png)
+    ![](images/2021-10-11-09-43-49.png)
 
 3.  **MgmtRT**に対してルートを作成する。
 
@@ -506,7 +506,7 @@ Duration: 15 minutes
 
 5. **MgmtRT** ルートテーブルに以下2つルートが作成されていることを確認する。
 
-    ![](2021-10-11-10-09-31.png)
+    ![](images/2021-10-11-10-09-31.png)
 
     >**Note:** まだサブネットと関連付けられていないので、ここまで設定したルートはトラフィックに影響を及ぼさない。関連付けは後に行う。
 ## Exercise 5: Configure n-tier application and validate functionality
@@ -543,8 +543,8 @@ Duration: 20 minutes
 
     以下のようになっていることを確認し、 **Review + create** をクリックし、 **Create**をクリック。
 
-    ![](2021-10-11-10-17-21.png)
-    ![](2021-10-11-10-21-15.png)
+    ![](images/2021-10-11-10-17-21.png)
+    ![](images/2021-10-11-10-21-15.png)
 
 
 ### Task 2: Configure the load balancer
@@ -553,11 +553,11 @@ Duration: 20 minutes
 
 2.  **Backend pools**をクリックし、**+Add**をクリックする。
 
-    ![](2021-10-11-10-24-41.png)
+    ![](images/2021-10-11-10-24-41.png)
 
 3. プール名に**LBBE**と入力し、**Virtual machine**セクションで**+Add**をクリックする。
 
-    ![](2021-10-11-10-27-26.png)
+    ![](images/2021-10-11-10-27-26.png)
 
 4. **WGWEB1** と**WGWEB2** 仮想マシンを選択し、**Add**をクリック。
 
@@ -565,7 +565,7 @@ Duration: 20 minutes
 
 6.  以下のようになっていることを確認する。
 
-    ![](2021-10-11-10-55-45.png)
+    ![](images/2021-10-11-10-55-45.png)
 
 7. **Settings**セクション下の**Health Probes**を選択し、**+ Add**をクリックして以下の情報を入力。
 
@@ -573,7 +573,7 @@ Duration: 20 minutes
 
     -  Protocol: **HTTP**
 
-    ![](2021-10-11-10-57-30.png)
+    ![](images/2021-10-11-10-57-30.png)
 
 
 8.  **Add**をクリック。
@@ -584,7 +584,7 @@ Duration: 20 minutes
   
     - Leave the rest as defaults.
 
-    ![](2021-10-11-11-30-48.png)
+    ![](images/2021-10-11-11-30-48.png)
 
     **検証に2-3分かかります。**
 
@@ -638,8 +638,8 @@ Duration: 15 minutes
 
     -  Public IP address: **(Add new) azureFirewall-ip**
 
-    ![](2021-10-11-12-01-50.png)
-    ![](2021-10-11-12-02-19.png)
+    ![](images/2021-10-11-12-01-50.png)
+    ![](images/2021-10-11-12-02-19.png)
 
 3.  **Review + create** をクリックし、**Create** をクリック。
 
@@ -654,7 +654,7 @@ Duration: 15 minutes
 
 4.  **azureFirewall**をクリックし、 **Overview** ページから**Rules (classic)**を選択。(**Settings**セクションの下)
 
-    ![](2021-10-11-12-12-57.png)
+    ![](images/2021-10-11-12-12-57.png)
 
 5.  **+ Add NAT Rule collection**を選択し、以下の情報を入力し、NATルールを作成する。最後に**Add**をクリック。
 
@@ -692,7 +692,7 @@ Duration: 15 minutes
   
     - Translated Port: **443**
 
-    ![](2021-10-11-12-18-02.png)
+    ![](images/2021-10-11-12-18-02.png)
 
 7.  ルールが作成されたことを確認する。
 
@@ -726,7 +726,7 @@ Duration: 15 minutes
 
     -  Destination ports: **3389**
 
-    ![](2021-10-11-12-25-24.png)
+    ![](images/2021-10-11-12-25-24.png)
 
 10. **Add** をクリック。
 
@@ -736,17 +736,17 @@ Duration: 15 minutes
 
 2.  以下の情報を入力。
 
-    ![](2021-10-11-12-31-03.png)
+    ![](images/2021-10-11-12-31-03.png)
 
 3.  ユーザー名：**demouser**, パスワード：**demo@pass123**を使用する。 
 
-    ![](2021-10-11-12-32-23.png)
+    ![](images/2021-10-11-12-32-23.png)
 
 4.  **Disk**タブで**Standard SSD**をOSのディスクとして選択。
-    ![](2021-10-11-12-33-42.png)
+    ![](images/2021-10-11-12-33-42.png)
 
 5.  **Network**タブでは、以下の内容を入力。
-    ![](2021-10-11-12-34-41.png)
+    ![](images/2021-10-11-12-34-41.png)
 
 6.  **Create**をクリックし、仮想マシンを作成。
 
@@ -760,11 +760,11 @@ Duration: 15 minutes
 
 2.  **AppRT**を選択し、**Subnets**をクリック。その後**+ Associate**をクリック。
 
-    ![](2021-10-11-12-52-29.png)
+    ![](images/2021-10-11-12-52-29.png)
 
 3.   **SpokeVNet2** を **Virtual network**ドロップダウンメニューで選択し、 **AppSubnet**を**Subnet**ドロップダウンで選択。 
 
-    ![](2021-10-11-12-54-00.png)
+    ![](images/2021-10-11-12-54-00.png)
 
 4.  **OK** をクリック。
 
@@ -774,7 +774,7 @@ Duration: 15 minutes
 
 7.  以下のように選択。 
 
-    ![](2021-10-11-12-56-35.png)
+    ![](images/2021-10-11-12-56-35.png)
 
 8.  **OK**をクリック。その後Task2のステップ7-8を再度試してみる。今度はどちらも接続できることを確認する。
 
@@ -799,7 +799,7 @@ Duration: 60 minutes
     -  Region: **Japan West** (Make sure this is **NOT** the same location you have specified in the previous exercises.)
 
 3.  以下のスクリーンショットのようになっていることを確認する。
-    ![](2021-10-11-13-50-23.png)
+    ![](images/2021-10-11-13-50-23.png)
 
 4.  **Next: IP Addresses**へと進む。
 
@@ -823,7 +823,7 @@ Duration: 60 minutes
 
 2.  **+ Gateway subnet**をクリック。
 
-    ![](2021-10-11-13-56-48.png)
+    ![](images/2021-10-11-13-56-48.png)
 
 3.  以下の情報を入力して、**Save**をクリック。
 
@@ -831,7 +831,7 @@ Duration: 60 minutes
 
     -  Route table: **None** (We will add this later.)
 
-    ![](2021-10-11-13-57-49.png)
+    ![](images/2021-10-11-13-57-49.png)
 
 
 
@@ -865,8 +865,8 @@ Duration: 60 minutes
 
     -  Configure BGP: **Disabled**
 
-    ![](2021-10-11-14-02-43.png)
-    ![](2021-10-11-14-03-06.png)
+    ![](images/2021-10-11-14-02-43.png)
+    ![](images/2021-10-11-14-03-06.png)
 
 3.   **Review + Create** をクリックし、 **Create**をクリック。
 
@@ -918,21 +918,21 @@ Duration: 60 minutes
 
 3.  **Basics** タブで、**Connection type** を **VNet-to-VNet**に設定し、 **HubVNetRG** リソースグループに作成。以下の情報を入力。
 
-    ![](2021-10-11-16-14-35.png)
+    ![](images/2021-10-11-16-14-35.png)
 
 4.  次のタブで以下の情報を入力。
 
-    ![](2021-10-11-16-33-14.png)
+    ![](images/2021-10-11-16-33-14.png)
 
 5.  **Create**をクリックして、接続を作成する。
 
 6.  検索バーに**Connections**と入力し、リソースの一覧に移動する。
 
-    ![](2021-10-11-16-38-15.png)
+    ![](images/2021-10-11-16-38-15.png)
 
 7.  ステータスを確認して、**Unknown** から**Connected**に変更するまで待つ。定期的に**更新**をクリックして確認する。完了までに5-10分かかります。
 
-    ![](2021-10-11-16-48-29.png)
+    ![](images/2021-10-11-16-48-29.png)
 
 
 ## Exercise 8: Validate connectivity from 'on-premises' to Azure
@@ -1023,7 +1023,7 @@ Duration: 30 minutes
 
     -  Propagate gateway routes: **Yes**
 
-    ![](2021-10-11-17-06-32.png)
+    ![](images/2021-10-11-17-06-32.png)
 
 4.  **Review + create** をクリックし、 **Create**をクリック。
 
@@ -1041,7 +1041,7 @@ Duration: 30 minutes
 
     -  Next hop address: **10.7.1.4**
 
-    ![](2021-10-11-17-10-18.png)
+    ![](images/2021-10-11-17-10-18.png)
 
 8.  **Settings**セクション下の**Subnets**をクリック。
 
@@ -1049,7 +1049,7 @@ Duration: 30 minutes
 
 10. 以下のように仮想ネットワークとサブネットを選択。
 
-    ![](2021-10-11-17-12-43.png)
+    ![](images/2021-10-11-17-12-43.png)
 
 
     >**Note:** At this point, you have configured your enterprise network. You should be able to test your Enterprise Class Network from one region to another. Your testing can include the following scenarios:
