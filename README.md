@@ -1065,7 +1065,7 @@ Duration: 30 minutes
 
 以下オプションになります。
 
-## Exercise 10: Create a Network Monitoring Solution
+## Exercise 9: Create a Network Monitoring Solution
 
 Duration: 15 minutes
 
@@ -1099,7 +1099,7 @@ Duration: 15 minutes
 
    ![In this screenshot, the 'Overview' blade of the 'Network Watcher' service is depicted with the available regions listed and the '+ Add' button selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image162.png "Network Watcher Overview blade")
 
-## Exercise 11: Using Network Watcher to Test and Validate Connectivity
+## Exercise 10: Using Network Watcher to Test and Validate Connectivity
 
 Duration: 60 minutes
 
