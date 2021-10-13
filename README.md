@@ -739,13 +739,13 @@ Duration: 15 minutes
 
 1.  **SpokeVNetRG2** リソースグループに進む。
 
-2.  **AppRT**を選択し、**Subnets**をクリック。その後**+ Associate**をクリック。
+2.  **AppRT**を選択し、**Subnets**をクリック。その後 **+ Associate**をクリック。
 
     ![](images/2021-10-11-12-52-29.png)
 
 3.   **SpokeVNet2** を **Virtual network**ドロップダウンメニューで選択し、 **AppSubnet**を**Subnet**ドロップダウンで選択。 
 
-    ![](images/2021-10-11-12-54-00.png)
+   ![](images/2021-10-11-12-54-00.png)
 
 4.  **OK** をクリック。
 
