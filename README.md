@@ -767,7 +767,7 @@ Duration: 60 minutes
 
 ### Task 1: Create OnPrem Virtual Network
 
-1.  メニューの**+ Create a resource**から**Virtual network**を発見し、**Create**をクリックします。
+1.  メニューの **+ Create a resource** から**Virtual network**を発見し、**Create**をクリックします。
 
 2.  以下の情報を入力します。
 
