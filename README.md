@@ -958,7 +958,7 @@ Duration: 30 minutes
 
     -  Virtual network: **OnPremVNet**
 
-    -  Subnet: **OnPremManagementSubnet (192.168.2.0/29)**
+    -  Subnet: **OnPreMgmt (192.168.2.0/29)**
 
     -  Public IP: **(new)OnPremVM-ip**
 
