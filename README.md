@@ -633,7 +633,7 @@ Duration: 15 minutes
 
 3.   **azureFirewall-ip** を選択し、IPアドレスを後のタスクのためにコピーしておく。
 
-4.  **azureFirewall**をクリックし、 **Overview** ページから**Rules (classic)**を選択。(**Settings**セクションの下)
+4.  **azureFirewall**をクリックし、 **Overview** ページから **Rules (classic)** を選択。(**Settings**セクションの下)
 
     ![](images/2021-10-11-12-12-57.png)
 
