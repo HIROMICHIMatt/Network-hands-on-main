@@ -926,7 +926,7 @@ Duration: 30 minutes
 
 1.  オンプレ用の仮想マシンを作成する。検索バーから仮想マシンを検索し、**Create**をクリック。
 
-2.  **Basics** タブで以下の情報を入力し、**Next : Disks >**へと進む。
+2.  **Basics** タブで以下の情報を入力し、**Next : Disks >** へと進む。
 
     -  Subscription: **Select your subscription*.
 
