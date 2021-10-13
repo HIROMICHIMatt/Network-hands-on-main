@@ -588,27 +588,8 @@ Duration: 20 minutes
 
     **検証に2-3分かかります。**
 
-10. Bastionを使って、WGWEB1 に接続。 以下のURLにアクセス <http://10.8.0.100>し、WEB1かWEB2のどちらかのアプリにアクセスできることを確認する。
+10. Bastionを使って、WGWEB1 に接続。 以下のURLにアクセス <http://10.8.0.100>し、WEB1かWEB2のどちらかのアプリにアクセスできることを確認する。アプリのページが開けたら、このエクササイズは完了。
 
-    ![In this screenshot, the web page that appears when you navigate to the load balancer IP address appears indicating that your successfully connected to the WEB1 web server.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image77.png "Server response")
-
-    ![In this screenshot, the web page that appears when you navigate to the load balancer IP address appears indicating that your successfully connected to the WEB2 web server.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image78.png "Server response")
-
-11. Using the portal, disassociate the public IP from the NIC of **WGWEB1VM**. Do this by navigating to the VM and selecting **Networking** under **Settings** on the left. Select the **NIC Public IP** then choose **Dissociate**. Select **Yes** when prompted.
-
-    ![In this screenshot, the WGWEB1 - Networking blade of the Azure portal is depicted with the NIC Public IP selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image79.png "Virtual machine networking blade")
-
-12. Next, return to the **WGWEB1 - Networking** blade and select the **Network Interface**.
-
-13. Select **IP configurations** under **Settings** on the left.
-
-    ![In this screenshot, the network interface page for the web server on the Azure portal is depicted with 'IP configuration' selected on the left.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image169.png "Network interface blade")
-
-14. Next, select **ipconfig1** shown above.
-
-15. Select and make sure that the **Public IP address settings** is shown as **Dissociate**, and select **Save** if necessary. This should remove the public IP address from the network interface of the VM.
-
-    ![In this screenshot, the 'ipconfig1' blade of the web server NIC is depicted with the 'Public IP address' set to 'Disassociate' and the Save button selected.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image170.png "IP configuration blade")
 
 ## Exercise 6: Provision and configure Azure firewall solution
 
