@@ -533,7 +533,7 @@ Duration: 20 minutes
 
     -  SKU: **Standard**
 
-    -  Name(Front end IP): ***WGWEBLBFE*
+    -  Name(Front end IP): **WGWEBLBFE**
 
     -  Virtual network: **SpokeVNet2**
 
