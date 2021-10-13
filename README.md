@@ -343,7 +343,7 @@ Duration: 20 minutes
 
     -  Source: **IP Addresses**
 
-    -  Source IP addresses/CIDR ranges: **10.7.5.0/24** (HubのBastionサブネットとSpokeVNet1の管理用サブネットのアドレス範囲。)
+    -  Source IP addresses/CIDR ranges: **10.7.5.0/24,10.9.2.0/25** (HubのBastionサブネットとSpokeVNet1の管理用サブネットのアドレス範囲。)
 
     -  Source port ranges: **\***
 
