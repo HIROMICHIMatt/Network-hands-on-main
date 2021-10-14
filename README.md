@@ -53,7 +53,7 @@ Before this hands-on, you need to finish several steps from the link below.
 
 
 # Architecture Image
-![image](https://user-images.githubusercontent.com/88808146/136530566-18766aff-ec3f-4bad-b9d4-b3116605b48a.png)  
+![image](images/20211014-screenshot6.png)
 
 ## Exercise 1: Create a Virtual Network and provision subnets
 
